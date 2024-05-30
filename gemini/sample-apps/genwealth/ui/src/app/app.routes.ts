@@ -10,5 +10,5 @@ export const routes: Routes = [
     {path: 'prospects', component: ProspectsComponent},
     {path: 'chat', component: ChatComponent},
     {path: 'chat/:userId', component: ChatComponent},
-    {path: '', redirectTo: '/investments', pathMatch: 'full'},
+    // {path: '', redirectTo: '/investments', pathMatch: 'full'},
 ];
